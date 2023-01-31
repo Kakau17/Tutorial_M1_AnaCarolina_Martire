@@ -2,7 +2,7 @@ extends Node # instancia a classe Node2D
 
 var status = 1 # funcionamento do jogo
 var vscore = 0 # aumenta ou zera o score do jogo
-var x = 1.5 # velocidade eixo x do dragão
+var x = 10.0 # velocidade eixo x do dragão
 var y = 1.5 # velocidade eixo y (queda) do dragão
 # executa essa função ao carregar o jogo
 func _ready():
