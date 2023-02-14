@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Exercicio3.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 102.0
+margin_bottom = 25.0
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 3.0
+margin_top = 31.0
+margin_right = 86.0
+margin_bottom = 71.0
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 142.0
+margin_top = 11.0
+margin_right = 259.0
+margin_bottom = 61.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[node name="LineEdit2" type="LineEdit" parent="."]
+margin_left = 143.0
+margin_top = 74.0
+margin_right = 260.0
+margin_bottom = 124.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[node name="LineEdit3" type="LineEdit" parent="."]
+margin_left = 144.0
+margin_top = 135.0
+margin_right = 261.0
+margin_bottom = 185.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 279.0
+margin_top = 127.0
+margin_right = 366.0
+margin_bottom = 186.0
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

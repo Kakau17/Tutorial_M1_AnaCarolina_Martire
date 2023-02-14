@@ -1,0 +1,165 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://TodosOsExercícios.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Ex1" type="Button" parent="."]
+margin_left = 279.0
+margin_top = 13.0
+margin_right = 366.0
+margin_bottom = 72.0
+rect_pivot_offset = Vector2( 72, 30 )
+custom_colors/font_color_disabled = Color( 0.576471, 0.737255, 0.85098, 1 )
+custom_colors/font_color_focus = Color( 0.576471, 0.737255, 0.85098, 1 )
+custom_colors/font_color = Color( 0.576471, 0.737255, 0.85098, 1 )
+custom_colors/font_color_hover = Color( 0.576471, 0.737255, 0.85098, 1 )
+custom_colors/font_color_pressed = Color( 0.576471, 0.737255, 0.85098, 1 )
+text = "EX1"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 376.0
+margin_top = 25.0
+margin_right = 483.0
+margin_bottom = 69.0
+custom_colors/font_color = Color( 0.576471, 0.737255, 0.85098, 1 )
+custom_colors/font_outline_modulate = Color( 0.576471, 0.737255, 0.85098, 1 )
+custom_colors/font_color_shadow = Color( 0.576471, 0.737255, 0.85098, 1 )
+text = "Saída exercicio 1"
+
+[node name="Ex2" type="Button" parent="."]
+margin_left = 281.0
+margin_top = 126.0
+margin_right = 368.0
+margin_bottom = 185.0
+rect_scale = Vector2( 0.995192, 1.00709 )
+rect_pivot_offset = Vector2( 72, 30 )
+custom_colors/font_color_disabled = Color( 0.282353, 0.898039, 0.27451, 1 )
+custom_colors/font_color_focus = Color( 0.282353, 0.898039, 0.27451, 1 )
+custom_colors/font_color = Color( 0.282353, 0.898039, 0.27451, 1 )
+custom_colors/font_color_hover = Color( 0.282353, 0.898039, 0.27451, 1 )
+custom_colors/font_color_pressed = Color( 0.282353, 0.898039, 0.27451, 1 )
+text = "EX2"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 376.0
+margin_top = 133.0
+margin_right = 493.0
+margin_bottom = 173.0
+custom_colors/font_color = Color( 0.282353, 0.898039, 0.27451, 1 )
+custom_colors/font_outline_modulate = Color( 0.282353, 0.898039, 0.27451, 1 )
+custom_colors/font_color_shadow = Color( 0.282353, 0.898039, 0.27451, 1 )
+text = "Saída exercício 2"
+
+[node name="Ex3" type="Button" parent="."]
+margin_left = 575.0
+margin_top = 16.0
+margin_right = 659.0
+margin_bottom = 75.0
+custom_colors/font_color_disabled = Color( 0.921569, 0.454902, 0.454902, 1 )
+custom_colors/font_color_focus = Color( 0.921569, 0.454902, 0.454902, 1 )
+custom_colors/font_color = Color( 0.921569, 0.454902, 0.454902, 1 )
+custom_colors/font_color_hover = Color( 0.921569, 0.454902, 0.454902, 1 )
+custom_colors/font_color_pressed = Color( 0.921569, 0.454902, 0.454902, 1 )
+text = "EX3"
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 671.0
+margin_top = 26.0
+margin_right = 778.0
+margin_bottom = 40.0
+custom_colors/font_color = Color( 0.921569, 0.454902, 0.454902, 1 )
+custom_colors/font_outline_modulate = Color( 0.921569, 0.454902, 0.454902, 1 )
+custom_colors/font_color_shadow = Color( 0.921569, 0.454902, 0.454902, 1 )
+text = "Saída exercício 3"
+
+[node name="Ex4" type="Button" parent="."]
+margin_left = 573.0
+margin_top = 126.0
+margin_right = 660.0
+margin_bottom = 185.0
+rect_scale = Vector2( 0.995192, 1.00709 )
+rect_pivot_offset = Vector2( 72, 30 )
+custom_colors/font_color_disabled = Color( 0.768627, 0.572549, 0.807843, 1 )
+custom_colors/font_color_focus = Color( 0.768627, 0.572549, 0.807843, 1 )
+custom_colors/font_color = Color( 0.768627, 0.572549, 0.807843, 1 )
+custom_colors/font_color_hover = Color( 0.768627, 0.572549, 0.807843, 1 )
+custom_colors/font_color_pressed = Color( 0.768627, 0.572549, 0.807843, 1 )
+text = "EX4"
+
+[node name="Label4" type="Label" parent="."]
+margin_left = 674.0
+margin_top = 133.0
+margin_right = 781.0
+margin_bottom = 147.0
+custom_colors/font_color = Color( 0.768627, 0.572549, 0.807843, 1 )
+custom_colors/font_outline_modulate = Color( 0.768627, 0.572549, 0.807843, 1 )
+custom_colors/font_color_shadow = Color( 0.768627, 0.572549, 0.807843, 1 )
+text = "Saída exercício 4"
+
+[node name="Label04" type="Label" parent="."]
+margin_left = 671.0
+margin_top = 150.0
+margin_right = 786.0
+margin_bottom = 189.0
+custom_colors/font_color = Color( 0.768627, 0.572549, 0.807843, 1 )
+custom_colors/font_outline_modulate = Color( 0.768627, 0.572549, 0.807843, 1 )
+custom_colors/font_color_shadow = Color( 0.768627, 0.572549, 0.807843, 1 )
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 128.0
+margin_top = 230.0
+margin_right = 296.0
+margin_bottom = 320.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[node name="LineEdit2" type="LineEdit" parent="."]
+margin_left = 129.0
+margin_top = 342.0
+margin_right = 297.0
+margin_bottom = 432.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[node name="LineEdit3" type="LineEdit" parent="."]
+margin_left = 130.0
+margin_top = 461.0
+margin_right = 298.0
+margin_bottom = 551.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[node name="LineEdit4" type="LineEdit" parent="."]
+margin_left = 366.0
+margin_top = 230.0
+margin_right = 534.0
+margin_bottom = 320.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[node name="LineEdit5" type="LineEdit" parent="."]
+margin_left = 367.0
+margin_top = 344.0
+margin_right = 535.0
+margin_bottom = 434.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[node name="LineEdit6" type="LineEdit" parent="."]
+margin_left = 368.0
+margin_top = 464.0
+margin_right = 536.0
+margin_bottom = 554.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[node name="LineEdit7" type="LineEdit" parent="."]
+margin_left = 675.0
+margin_top = 236.0
+margin_right = 843.0
+margin_bottom = 326.0
+rect_pivot_offset = Vector2( 186, 99 )
+
+[connection signal="pressed" from="Ex1" to="." method="_on_Ex1_pressed"]
+[connection signal="pressed" from="Ex1" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Ex2" to="." method="_on_Ex2_pressed"]
+[connection signal="pressed" from="Ex2" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Ex3" to="." method="_on_Ex3_pressed"]
+[connection signal="pressed" from="Ex4" to="." method="_on_Ex4_pressed"]
+[connection signal="pressed" from="Ex4" to="." method="_on_Button_pressed"]
